@@ -1,5 +1,5 @@
 <?php
-//find values of formulaire
+//find values of this input
     $fname=$_POST["fname"]?? "";
     $lname=$_POST["lname"]?? "";
     $date=$_POST["date"]?? "";
