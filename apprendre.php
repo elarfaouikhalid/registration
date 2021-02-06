@@ -1,10 +1,12 @@
 <?php
+//find values of formulaire
     $fname=$_POST["fname"]?? "";
     $lname=$_POST["lname"]?? "";
     $date=$_POST["date"]?? "";
     $pas=$_POST["pas"]?? "";
     $cpas=$_POST["cpas"]?? "";
     $status="";
+//insert into mysql using pdo
     $pdo=new PDO("mysql:dbname=dbsign;host=127.0.0.1;","root","");
     if($_SERVER['REQUEST_METHOD']==='POST')
     {
