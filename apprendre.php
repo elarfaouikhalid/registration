@@ -44,11 +44,11 @@ $pdo=null;
 </head>
 <body>
 <form action="./apprendre.php" method="Post">
-    <input type="text" name="fname" placeholder="enter firstname"><label for="fname"><span class="badge bg-danger"><?php echo $status ; ?></span></label><br/>
-    <input type="text" name="lname" placeholder="enter lastname"><label for="lname"><span class="badge bg-danger"><?php echo $status ; ?></span></label><br/>
-    <input type="text" name="date" placeholder="enter datepirth"><label for="date"><span class="badge bg-danger"><?php echo $status ; ?></span></label><br/>
-    <input type="text" name="pas" placeholder="enter password"><label for="pas"><span class="badge bg-danger"><?php echo $status ; ?></span></label><br/>
-    <input type="text" name="cpas" placeholder="enter password"><label for="cpas"><span class="badge bg-danger"><?php echo $status ; ?></span></label><br/>
+    <input type="text" name="fname" placeholder="enter firstname"><label for="fname"><?php echo $status ; ?></label><br/>
+    <input type="text" name="lname" placeholder="enter lastname"><label for="lname"><?php echo $status ; ?></label><br/>
+    <input type="text" name="date" placeholder="enter datepirth"><label for="date"><?php echo $status ; ?></label><br/>
+    <input type="text" name="pas" placeholder="enter password"><label for="pas"><?php echo $status ; ?></label><br/>
+    <input type="text" name="cpas" placeholder="enter password"><label for="cpas"><?php echo $status ; ?></label><br/>
     <input type="submit" name="btn" value="validate">
 </form>
    
