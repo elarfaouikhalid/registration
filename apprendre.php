@@ -27,7 +27,7 @@
                     ":ps"=>$pas,
                     ":cp"=>$cpas
                 ]);
-                $sql=null;
+                $req=null;
 $pdo=null;
     header('location:./apprendre.php');
             }
@@ -53,6 +53,5 @@ $pdo=null;
     <input type="text" name="cpas" placeholder="enter password"><label for="cpas"><?php echo $status ; ?></label><br/>
     <input type="submit" name="btn" value="validate">
 </form>
-   
 </body>
 </html>
